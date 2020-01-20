@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#LoginPage{
+    background-image: linear-gradient( to bottom right, #606B9B,  #B191D4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 70%;
+    box-shadow: 1px 70px 100px #8888;
+}
+#title{
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-align: left;
+    padding: 0vh 15vw;
+}
+#subheader{
+    color: #70C7A9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    text-align: left;
+    padding: 5vh 15vw;
+    padding-bottom: 0vh;
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 30%;
+}
+button{
+    background-color: #70C7A9;
+    font-family: helvetica;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 5vw;
+    height: 4vw;
+    padding: 5px;
+    padding-left: 0px;
+}
